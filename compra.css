@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main{
+    background: #292929;
+    width: 95vw;
+    height: 92vh;
+    margin: 1rem auto;
+    border: 2px solid #0000;
+    border-radius: 50px;
+    box-shadow: 10px 12px 10px rgba(0, 0, 0, 0.25);
+}
+
+.section-one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem auto;
+    width: 85vw;
+    height: 25vh;
+}
+
+.section-one img{
+    width: 6vw;
+}
+
+.section-one h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85vw;
+    height: 30vh;
+    margin: 0 auto;
+}
+
+.section-two-text{
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-two-text h3{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.section-two-text h4{
+    font-weight: 200;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.section-two img{
+    width: 6rem;
+}
+
+.section-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 85vw;
+    height: 30vh;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.section-three-text{
+    font-family: 'Poppins', sans-serif;
+}
